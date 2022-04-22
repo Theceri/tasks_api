@@ -3,5 +3,4 @@ services:
     web:
         build: .
         ports:
-            - "5005:5000"
-        
+            - "5006:5000"
