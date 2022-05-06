@@ -10,4 +10,5 @@ script:
 - python -m unittest tests/test_login.py
 
 aftersuccess:
+- chmod u+x ./login.sh
 - ./login.sh
